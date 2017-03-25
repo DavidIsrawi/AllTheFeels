@@ -13,7 +13,7 @@ Spotify API to play playlist : https://developer.spotify.com/web-api/playlist-en
 Watson analyze emotion of response (day)
 
 ## Architecture
-[] Alexa -> JSON -> Text from user -> python
-[] Python -> Text from user -> Watson -> Score -> python
-[] Python code -> playlist id (closest score)
-[] Playlist id -> spotify api -> play on alexa	
+- [ ] Alexa -> JSON -> Text from user -> python
+- [ ] Python -> Text from user -> Watson -> Score -> python
+- [ ] Python code -> playlist id (closest score)
+- [ ] Playlist id -> spotify api -> play on alexa	
