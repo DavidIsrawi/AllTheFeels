@@ -18,11 +18,10 @@
 ## What we need/what we will use:
 
 - Amazon Echo Integration (https://developer.amazon.com/alexa-skills-kit)
-- Spotify API to play playlist (https://developer.spotify.com/web-api/playlist-endpoints/)
 - Watson AlchemyAPI (https://www.ibm.com/watson/developercloud/alchemy-language.html)
 
 ## Architecture
 - [ ] Alexa -> JSON -> Text from user
 - [X] Text from user -> Python -> Watson score
-- [ ] Score -> Python code -> playlist id (closest score)
-- [ ] Playlist id -> spotify api -> play on alexa
+- [ ] Score -> Python code -> Playlist
+- [ ] Playlist -> Play through Alexa
