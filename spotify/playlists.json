@@ -1,8 +1,13 @@
 [
   {
-    "emotion": 0.7,
-    "URI": "spotify:user:spotify:playlist:3xgbBiNc7mh3erYsCl8Fwg",
-    "name": "Mood Booster"
+    "emotion": 0.85,
+    "URI": "spotify:user:myplay.com:playlist:1h90L3LP8kAJ7KGjCV2Xfd",
+    "name": "Get Happy!"
+  },
+  {
+    "emotion": 0.8,
+    "URI": "spotify:user:digster.fm:playlist:0ZWYUjUMhaq0Rammqq3qu1",
+    "name": "Party Jams!"
   },
   {
     "emotion": 0.7,
@@ -10,33 +15,29 @@
     "name": "Mood Booster"
   },
   {
-    "emotion": 0.7,
-    "URI": "spotify:user:spotify:playlist:3xgbBiNc7mh3erYsCl8Fwg",
-    "name": "Mood Booster"
+    "emotion": 0.6,
+    "URI": "spotify:user:sonymusicentertainment:playlist:5L8kmuWZJL1DJgNaICXKYi",
+    "name": "Good Times"
+  },
+
+  {
+    "emotion": -0.2,
+    "URI": "spotify:user:spotify:playlist:7jyyxDxMmtNs1UeLEOpJcE",
+    "name": "Songs for Sunsets"
   },
   {
-    "emotion": 0.7,
-    "URI": "spotify:user:spotify:playlist:3xgbBiNc7mh3erYsCl8Fwg",
-    "name": "Mood Booster"
+    "emotion": -0.4,
+    "URI": "spotify:user:spotify:playlist:5eSMIpsnkXJhXEPyRQCTSc",
+    "name": "Life Sucks"
   },
   {
-    "emotion": 0.7,
-    "URI": "spotify:user:spotify:playlist:3xgbBiNc7mh3erYsCl8Fwg",
-    "name": "Mood Booster"
-  },
-  {
-    "emotion": 0.7,
-    "URI": "spotify:user:spotify:playlist:3xgbBiNc7mh3erYsCl8Fwg",
-    "name": "Mood Booster"
-  },
-  {
-    "emotion": 0.7,
-    "URI": "spotify:user:spotify:playlist:3xgbBiNc7mh3erYsCl8Fwg",
-    "name": "Mood Booster"
-  },
-  {
-    "emotion": -0.7,
+    "emotion": -0.65,
     "URI": "spotify:user:spotify:playlist:6ejgjp55cJWGzcDOp4HpGC",
     "name": "Down In The Dumps"
+  },
+  {
+    "emotion": -0.8,
+    "URI": "spotify:user:spotify:playlist:2U3mZqDktE7UJ1gE4eVoUv",
+    "name": "Forever Alone"
   },
 ]
