@@ -1,19 +1,19 @@
 # All the Feels
 
 ## Project Idea
-Alexa: How’s your day going?
-User: (explains day)
-Alexa: I feel you. I found some good playlists for you to listen to. Would you like to listen to X?
-User: Yes
-Alexa: (Play from Spotify)
+- Alexa: How’s your day going?
+- User: (explains day)
+- Alexa: I feel you. I found some good playlists for you to listen to. Would you like to listen to X?
+- User: Yes
+- Alexa: (Play from Spotify)
 
-Optional 1
-User: No
-Alexa: Ok. What about the Y playlist?
+### Optional 1
+- User: No
+- Alexa: Ok. What about the Y playlist?
 
-Optional 2
-User: I don't want to listen to music
-Alexa: Alright
+### Optional 2
+- User: I don't want to listen to music
+- Alexa: Alright
 
 ## What we need/what we will use:
 
