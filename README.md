@@ -1,16 +1,25 @@
 # All the Feels
-------------
+
 ## Project Idea
 Alexa: How’s your day going?
-User: Some response of day went.
+User: (explains day)
+Alexa: I feel you. I found some good playlists for you to listen to. Would you like to listen to X?
+User: Yes
+Alexa: (Play from Spotify)
 
-System processes this response, analyzes your response and plays a song corresponding to that mood
+Optional 1
+User: No
+Alexa: Ok. What about the Y playlist?
+
+Optional 2
+User: I don't want to listen to music
+Alexa: Alright
 
 ## What we need/what we will use:
 
-Amazon Echo Integration
-Spotify API to play playlist : https://developer.spotify.com/web-api/playlist-endpoints/
-Watson analyze emotion of response (day)
+- Amazon Echo Integration (https://developer.amazon.com/alexa-skills-kit)
+- Spotify API to play playlist (https://developer.spotify.com/web-api/playlist-endpoints/)
+- Watson AlchemyAPI (https://www.ibm.com/watson/developercloud/alchemy-language.html)
 
 ## Architecture
 - [ ] Alexa -> JSON -> Text from user
