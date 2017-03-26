@@ -1,0 +1,19 @@
+{
+  "intents": [
+    {
+      "intent": "AMAZON.ResumeIntent"
+    },
+    {
+      "intent": "AMAZON.PauseIntent"
+    },
+    {
+      "intent": "ScanFeels",
+      "slots": [
+        {
+          "name": "Feeling",
+          "type": "string"
+        }
+      ]
+    }
+  ]
+}
