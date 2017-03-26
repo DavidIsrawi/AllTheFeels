@@ -10,6 +10,7 @@ http://amzn.to/1LGWsLG
 from __future__ import print_function
 from watsonAlchemy import getSentiment
 from findPlaylist import findPlaylist
+import requests
 import json
 
 
@@ -54,12 +55,12 @@ def get_welcome_response():
     session_attributes = {}
     card_title = "Welcome"
     speech_output = "Welcome to the All The Feels Poly Hacks 2017 Project. " \
-                    "Please tell me how your day is going by saying, " \
+                    "Please tell me how your day is going by saying something like" \
                     "My day has been terrible, my dog died."
     # If the user either does not reply to the welcome message or says something
     # that is not understood, they will be prompted again with this text.
     reprompt_text = "I didn't catch that. " \
-                    "Please tell me how your day is going by saying, " \
+                    "Please tell me how your day is going by saying something like " \
                     "My day has been terrible, my dog died."
     should_end_session = False
     return build_response(session_attributes, build_speechlet_response(
@@ -81,10 +82,6 @@ def convert_feelings_to_rating(feeling):
     return ratingJSON['score']
 
 def set_mood_in_session(intent, session):
-    """ Sets the color in the session and prepares the speech to reply to the
-    user.
-    """
-
     card_title = intent['name']
     session_attributes = {}
     should_end_session = False
@@ -97,35 +94,62 @@ def set_mood_in_session(intent, session):
         session_attributes['playlists'] = findPlaylist(eval(score))
         session_attributes['index'] = 0
         currentPlaylist = session_attributes['playlists'][session_attributes['index']]['name']
-        # speech_output = "According to our rating, on a scale of -1 to 1 your day was a " + \
-        #                 str(score) +\
-        #                 ". You can ask me to play music by asking, " \
-        #                 "please play some music"
-        # reprompt_text = ". You can ask me to play music by asking, " \
-        #                 "please play some music"
-        speech_output = "According to our rating, on a scale of -1 to 1 your day was a " + \
-                        str(score) +\
-                        ". Would you like to listen to " + \
+        score = eval(score)
+        if score < -0.8:
+            speech_output = "I'm sorry to hear that. Would you like to listen to " + currentPlaylist
+        elif score < -0.5:
+            speech_output = "I'm sure your day will get better. Would you like to listen to " + currentPlaylist
+        elif score < 0:
+            speech_output = "I feel you. Would you like to listen to " + currentPlaylist
+        elif score < 0.5:
+            speech_output = "I'm glad to hear that. Would you like to listen to " + currentPlaylist
+        else:
+            speech_output = "That's so lit. Would you like to listen to " + currentPlaylist
+        reprompt_text = ". Sorry, I didn't catch that. Would you like to listen to " + \
+                        currentPlaylist
+    else:
+        speech_output = "I'm not sure how you're feeling. " \
+                        "Please tell me how your day has been."
+        reprompt_text = "I'm not sure how you're feeling. " \
+                        "Please tell me how your day has been."
+    return build_response(session_attributes, build_speechlet_response(
+        card_title, speech_output, reprompt_text, should_end_session))
+
+def cheerUp(intent, session):
+    card_title = intent['name']
+    session_attributes = {}
+    should_end_session = False
+
+    if "playlists" in session.get('attributes', {}):
+        score = 1
+        session_attributes['score'] = score
+        session['attributes']['playlists'] = findPlaylist(score)
+        session['attributes']['index'] = 0
+        currentPlaylist = session['attributes']['playlists'][session['attributes']['index']]['name']
+        speech_output = "I got you faaaam. Would you like to listen to " + \
                         currentPlaylist
         reprompt_text = ". Sorry, I didn't catch that. Would you like to listen to " + \
                         currentPlaylist
     else:
         speech_output = "I'm not sure how you're feeling. " \
-                        "Please try again."
+                        "Please tell me how your day has been."
         reprompt_text = "I'm not sure how you're feeling. " \
-                        ". You can ask me to play music by asking, " \
-                        "please play some music"
-    return build_response(session_attributes, build_speechlet_response(
+                        "Please tell me how your day has been."
+    return build_response(session['attributes'], build_speechlet_response(
         card_title, speech_output, reprompt_text, should_end_session))
 
 def get_playlists_from_session_yes(intent, session):
     session_attributes = {}
     reprompt_text = None
+    request = requests.Session()
 
     if "playlists" in session.get('attributes', {}):
         playlists = session['attributes']['playlists']
         index = session['attributes']['index']
         currentPlaylist = playlists[index]['name']
+        currentURI = playlists[index]['URI']
+        url = 'http://6da862e2.ngrok.io/AllTheFeels/webresources/allthefeels/spotify/'
+        request.get(url+str(currentURI))
         session['attributes']['index'] = index + 1
         speech_output = "Now Playing " + currentPlaylist
         should_end_session = True
@@ -172,7 +196,7 @@ def get_playlists_from_session_no(intent, session):
         currentPlaylist = playlists[index+1]['name']
 
         if index < len(playlists):
-            speech_output = "Okay, sorry you didn't like that. Would you like to listen to " + currentPlaylist + \
+            speech_output = "Alright, would you like to listen to " + currentPlaylist + \
                             " instead."
             reprompt_text = "Sorry, I didn't catch that. Would you like to listen to " + currentPlaylist + \
                             " instead. "
@@ -230,8 +254,8 @@ def on_intent(intent_request, session):
         return get_playlists_from_session_yes(intent,session)
     elif intent_name == "AMAZON.NoIntent":
         return get_playlists_from_session_no(intent,session)
-    # elif intent_name == "WhatsMyColorIntent":
-    #     return get_color_from_session(intent, session)
+    elif intent_name == "CheerUp":
+        return cheerUp(intent, session)
     elif intent_name == "AMAZON.HelpIntent":
         return get_welcome_response()
     elif intent_name == "AMAZON.CancelIntent" or intent_name == "AMAZON.StopIntent":
