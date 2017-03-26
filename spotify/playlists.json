@@ -1,66 +1,66 @@
 [
     {
-        "emotion": 0.80,
+        "emotion": 0.90,
         "URI": "spotify:user:myplay.com:playlist:1h90L3LP8kAJ7KGjCV2Xfd",
         "name": "Get Happy!",
         "URL": "https://open.spotify.com/user/myplay.com/playlist/1h90L3LP8kAJ7KGjCV2Xfd"
     },
     {
-        "emotion": 0.70,
+        "emotion": 0.85,
         "URI": "spotify:user:digster.fm:playlist:0ZWYUjUMhaq0Rammqq3qu1",
         "name": "Party Jams!",
         "URL": "https://open.spotify.com/user/digster.fm/playlist/0ZWYUjUMhaq0Rammqq3qu1"
     },
     {
-        "emotion": 0.60,
+        "emotion": 0.80,
         "URI": "spotify:user:spotify:playlist:2PXdUld4Ueio2pHcB6sM8j",
         "name": "Have a Great Day!",
         "URL": "https://open.spotify.com/user/spotify/playlist/2PXdUld4Ueio2pHcB6sM8j"
     },
     {
-        "emotion": 0.55,
+        "emotion": 0.75,
         "URI": "spotify:user:spotify:playlist:2qlMTcW6AnnaGl7eXWAZP5",
         "name": "Get Turnt",
         "URL": "https://open.spotify.com/user/spotify/playlist/2qlMTcW6AnnaGl7eXWAZP5"
     },
     {
-        "emotion": 0.50,
+        "emotion": 0.70,
         "URI": "spotify:user:spotify:playlist:3xgbBiNc7mh3erYsCl8Fwg",
         "name": "Mood Booster",
         "URL": "https://open.spotify.com/user/spotify/playlist/6uTuhSs7qiEPfCI3QDHXsL"
     },
     {
-        "emotion": 0.40,
+        "emotion": 0.65,
         "URI": "spotify:user:sonymusicentertainment:playlist:5L8kmuWZJL1DJgNaICXKYi",
         "name": "Good Times",
         "URL": "https://open.spotify.com/user/sonymusicentertainment/playlist/5L8kmuWZJL1DJgNaICXKYi"
     },
     {
-        "emotion": 0.30,
+        "emotion": 0.55,
         "URI": "spotify:user:spotify:playlist:0geFu4KbbAGl6Fteod0QoW",
         "name": "Ready for the Day",
         "URL": "https://open.spotify.com/user/spotify/playlist/0geFu4KbbAGl6Fteod0QoW"
     },
     {
-        "emotion": 0.25,
+        "emotion": 0.45,
         "URI": "spotify:user:sonymusic:playlist:6bfxfMIcYKN4ce6XQOxoqY",
         "name": "Sunset Vibes",
         "URL": "https://open.spotify.com/user/sonymusic/playlist/6bfxfMIcYKN4ce6XQOxoqY"
     },
     {
-        "emotion": 0.20,
+        "emotion": 0.30,
         "URI": "spotify:user:spotify:playlist:7jyyxDxMmtNs1UeLEOpJcE",
         "name": "Songs for Sunsets",
         "URL": "https://open.spotify.com/user/spotify/playlist/7jyyxDxMmtNs1UeLEOpJcE"
     },
     {
-        "emotion": 0.15,
+        "emotion": 0.25,
         "URI": "spotify:user:digster.fm:playlist:0Gy1TwCxPFTMCiwxGLVkc1",
         "name": "At Work",
         "URL": ""
     },
     {
-        "emotion": 0.05,
+        "emotion": 0.20,
         "URI": "spotify:user:spotify:playlist:3CwQbkAIc6AAkZu9pO4wV5",
         "name": "SXSW Best Indie",
         "URL": ""
@@ -78,43 +78,43 @@
         "URL": "https://open.spotify.com/user/spotify/playlist/2dcOG6Snw5DbCvGVr1V03p"
     },
     {
-        "emotion": -0.20,
+        "emotion": -0.30,
         "URI": "spotify:user:spotify:playlist:6U7cKUjDJsdLPd5AoDTjvS",
         "name": "Mellow Mood",
         "URL": "https://open.spotify.com/user/spotify/playlist/6U7cKUjDJsdLPd5AoDTjvS"
     },
     {
-        "emotion": -0.30,
+        "emotion": -0.40,
         "URI": "spotify:user:spotify:playlist:3i3jnTWkJKqDTJHkUSZsRl",
         "name": "Smooth Morning",
         "URL": "https://open.spotify.com/user/spotify/playlist/3i3jnTWkJKqDTJHkUSZsRl"
     },
     {
-        "emotion": -0.40,
+        "emotion": -0.50,
         "URI": "spotify:user:spotify:playlist:1rg0arh9uWqGOYH7gEtQ6a",
         "name": "Melancholia",
         "URL": "https://open.spotify.com/user/spotify/playlist/1rg0arh9uWqGOYH7gEtQ6a"
     },
     {
-        "emotion": -0.50,
+        "emotion": -0.65,
         "URI": "spotify:user:spotify:playlist:5eSMIpsnkXJhXEPyRQCTSc",
         "name": "Life Sucks",
         "URL": "https://open.spotify.com/user/spotify/playlist/5eSMIpsnkXJhXEPyRQCTSc"
     },
     {
-        "emotion": -0.65,
+        "emotion": -0.75,
         "URI": "spotify:user:spotify:playlist:6ejgjp55cJWGzcDOp4HpGC",
         "name": "Down In The Dumps",
         "URL": "https://open.spotify.com/user/spotify/playlist/6ejgjp55cJWGzcDOp4HpGC"
     },
     {
-        "emotion": -0.70,
+        "emotion": -0.85,
         "URI": "spotify:user:spotify:playlist:2U3mZqDktE7UJ1gE4eVoUv",
         "name": "Forever Alone",
         "URL": "https://open.spotify.com/user/spotify/playlist/2U3mZqDktE7UJ1gE4eVoUv"
     },
     {
-        "emotion": -0.85,
+        "emotion": -0.95,
         "URI": "spotify:user:spotify:playlist:2dzLgP7igXftq2lw8gTB9M",
         "name": "Coping With Loss",
         "URL": "https://open.spotify.com/user/spotify/playlist/2dzLgP7igXftq2lw8gTB9M"
