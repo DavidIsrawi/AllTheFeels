@@ -1,0 +1,16 @@
+MyColorIsIntent my color is {dark brown|Color}
+MyColorIsIntent my color is {green|Color}
+MyColorIsIntent my color is {red|Color}
+MyColorIsIntent my color is {navy blue|Color}
+WhatsMyColorIntent whats my color
+WhatsMyColorIntent what is my color
+WhatsMyColorIntent say my color
+WhatsMyColorIntent tell me my color
+WhatsMyColorIntent what is my favorite color
+WhatsMyColorIntent whats my favorite color
+WhatsMyColorIntent say my favorite color
+
+ScanFeels I am feeling {Feeling}
+ScanFeels Im feeling {Feeling}
+ScanFeels Im {Feeling}
+ScanFeels I am {Feeling}
