@@ -1,43 +1,102 @@
 [
-  {
-    "emotion": 0.85,
-    "URI": "spotify:user:myplay.com:playlist:1h90L3LP8kAJ7KGjCV2Xfd",
-    "name": "Get Happy!"
-  },
-  {
-    "emotion": 0.8,
-    "URI": "spotify:user:digster.fm:playlist:0ZWYUjUMhaq0Rammqq3qu1",
-    "name": "Party Jams!"
-  },
-  {
-    "emotion": 0.7,
-    "URI": "spotify:user:spotify:playlist:3xgbBiNc7mh3erYsCl8Fwg",
-    "name": "Mood Booster"
-  },
-  {
-    "emotion": 0.6,
-    "URI": "spotify:user:sonymusicentertainment:playlist:5L8kmuWZJL1DJgNaICXKYi",
-    "name": "Good Times"
-  },
-
-  {
-    "emotion": -0.2,
-    "URI": "spotify:user:spotify:playlist:7jyyxDxMmtNs1UeLEOpJcE",
-    "name": "Songs for Sunsets"
-  },
-  {
-    "emotion": -0.4,
-    "URI": "spotify:user:spotify:playlist:5eSMIpsnkXJhXEPyRQCTSc",
-    "name": "Life Sucks"
-  },
-  {
-    "emotion": -0.65,
-    "URI": "spotify:user:spotify:playlist:6ejgjp55cJWGzcDOp4HpGC",
-    "name": "Down In The Dumps"
-  },
-  {
-    "emotion": -0.8,
-    "URI": "spotify:user:spotify:playlist:2U3mZqDktE7UJ1gE4eVoUv",
-    "name": "Forever Alone"
-  },
+    {
+        "emotion": 0.80,
+        "URI": "spotify:user:myplay.com:playlist:1h90L3LP8kAJ7KGjCV2Xfd",
+        "name": "Get Happy!"
+    },
+    {
+        "emotion": 0.70,
+        "URI": "spotify:user:digster.fm:playlist:0ZWYUjUMhaq0Rammqq3qu1",
+        "name": "Party Jams!"
+    },
+    {
+        "emotion": 0.60,
+        "URI": "spotify:user:spotify:playlist:2PXdUld4Ueio2pHcB6sM8j",
+        "name": "Have a Great Day!"
+    },
+    {
+        "emotion": 0.55,
+        "URI": "spotify:user:spotify:playlist:2qlMTcW6AnnaGl7eXWAZP5",
+        "name": "Get Turnt"
+    },
+    {
+        "emotion": 0.50,
+        "URI": "spotify:user:spotify:playlist:3xgbBiNc7mh3erYsCl8Fwg",
+        "name": "Mood Booster"
+    },
+    {
+        "emotion": 0.40,
+        "URI": "spotify:user:sonymusicentertainment:playlist:5L8kmuWZJL1DJgNaICXKYi",
+        "name": "Good Times"
+    },
+    {
+        "emotion": 0.30,
+        "URI": "spotify:user:spotify:playlist:0geFu4KbbAGl6Fteod0QoW",
+        "name": "Ready for the Day"
+    },
+    {
+        "emotion": 0.25,
+        "URI": "spotify:user:sonymusic:playlist:6bfxfMIcYKN4ce6XQOxoqY",
+        "name": "Sunset Vibes"
+    },
+    {
+        "emotion": 0.20,
+        "URI": "spotify:user:spotify:playlist:7jyyxDxMmtNs1UeLEOpJcE",
+        "name": "Songs for Sunsets"
+    },
+    {
+        "emotion": 0.15,
+        "URI": "spotify:user:digster.fm:playlist:0Gy1TwCxPFTMCiwxGLVkc1",
+        "name": "At Work"
+    },
+    {
+        "emotion": 0.05,
+        "URI": "spotify:user:spotify:playlist:3CwQbkAIc6AAkZu9pO4wV5",
+        "name": "SXSW Best Indie"
+    },
+    {
+        "emotion": 0,
+        "URI": "spotify:user:spotify:playlist:3InXOgDxJPeA05l6rQyDoe",
+        "name": "Relax and Unwind"
+    },
+    {
+        "emotion": -0.10,
+        "URI": "spotify:user:spotify:playlist:2dcOG6Snw5DbCvGVr1V03p",
+        "name": "Evening Commute"
+    },
+    {
+        "emotion": -0.20,
+        "URI": "spotify:user:spotify:playlist:6U7cKUjDJsdLPd5AoDTjvS",
+        "name": "Mellow Mood"
+    },
+    {
+        "emotion": -0.30,
+        "URI": "spotify:user:spotify:playlist:3i3jnTWkJKqDTJHkUSZsRl",
+        "name": "Smooth Morning"
+    },
+    {
+        "emotion": -0.40,
+        "URI": "spotify:user:spotify:playlist:1rg0arh9uWqGOYH7gEtQ6a",
+        "name": "Melancholia"
+    },
+    {
+        "emotion": -0.50,
+        "URI": "spotify:user:spotify:playlist:5eSMIpsnkXJhXEPyRQCTSc",
+        "name": "Life Sucks"
+    },
+    {
+        "emotion": -0.65,
+        "URI": "spotify:user:spotify:playlist:6ejgjp55cJWGzcDOp4HpGC",
+        "name": "Down In The Dumps"
+    },
+    {
+        "emotion": -0.70,
+        "URI": "spotify:user:spotify:playlist:2U3mZqDktE7UJ1gE4eVoUv",
+        "name": "Forever Alone"
+    },
+    {
+        "emotion": -0.85,
+        "URI": "spotify:user:spotify:playlist:2dzLgP7igXftq2lw8gTB9M",
+        "name": "Coping With Loss"
+    }
 ]
