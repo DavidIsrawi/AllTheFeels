@@ -15,6 +15,11 @@
         "name": "Have a Great Day!"
     },
     {
+        "emotion": 0.55,
+        "URI": "spotify:user:spotify:playlist:2qlMTcW6AnnaGl7eXWAZP5",
+        "name": "Get Turnt"
+    },
+    {
         "emotion": 0.50,
         "URI": "spotify:user:spotify:playlist:3xgbBiNc7mh3erYsCl8Fwg",
         "name": "Mood Booster"
@@ -30,9 +35,9 @@
         "name": "Ready for the Day"
     },
     {
-        "emotion": 0,
-        "URI": "spotify:user:spotify:playlist:3InXOgDxJPeA05l6rQyDoe",
-        "name": "Relax and Unwind"
+        "emotion": 0.25,
+        "URI": "spotify:user:sonymusic:playlist:6bfxfMIcYKN4ce6XQOxoqY",
+        "name": "Sunset Vibes"
     },
     {
         "emotion": 0.20,
@@ -43,6 +48,26 @@
         "emotion": 0.15,
         "URI": "spotify:user:digster.fm:playlist:0Gy1TwCxPFTMCiwxGLVkc1",
         "name": "At Work"
+    },
+    {
+        "emotion": 0.05,
+        "URI": "spotify:user:spotify:playlist:3CwQbkAIc6AAkZu9pO4wV5",
+        "name": "SXSW Best Indie"
+    },
+    {
+        "emotion": 0,
+        "URI": "spotify:user:spotify:playlist:3InXOgDxJPeA05l6rQyDoe",
+        "name": "Relax and Unwind"
+    },
+    {
+        "emotion": -0.10,
+        "URI": "spotify:user:spotify:playlist:2dcOG6Snw5DbCvGVr1V03p",
+        "name": "Evening Commute"
+    },
+    {
+        "emotion": -0.20,
+        "URI": "spotify:user:spotify:playlist:6U7cKUjDJsdLPd5AoDTjvS",
+        "name": "Mellow Mood"
     },
     {
         "emotion": -0.30,
