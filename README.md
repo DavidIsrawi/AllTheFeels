@@ -21,7 +21,7 @@
 - Watson AlchemyAPI (https://www.ibm.com/watson/developercloud/alchemy-language.html)
 
 ## Architecture
-- [ ] Alexa -> JSON -> Text from user
+- [X] Alexa -> JSON -> Text from user
 - [X] Text from user -> Python -> Watson score
-- [ ] Score -> Python code -> Playlist
+- [X] Score -> Python code -> Playlist
 - [ ] Playlist -> Play through Alexa
